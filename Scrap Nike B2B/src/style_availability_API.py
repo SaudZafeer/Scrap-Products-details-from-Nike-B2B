@@ -5,8 +5,8 @@ class ColorId:
     def get_color_id():
         orderList = []
         url = "https://atonce.nike.net/search/retailer/0000017835/now"
-
-        querystring = {"avmig":"HO19","childSo":"1000","closeout":"exclude","contracts":"0042270969-1000,0043095513-1000,0042234363-1000,0042258166-1000,0041977603-1000","currency":"USD","extContracts":"none","language":"EN","limit":"400","minAv":"1","page":"1","priceList":"USA","q":"Jordan","region":"USA","sizeType":"USA","so":"1000","soldTo":"0000017835","type":"FTWR"}
+        #Fill your own Query string
+        querystring = {"avmig":"","childSo":"","closeout":"","contracts":"","currency":"","extContracts":"","language":"","limit":"","minAv":"","page":"","priceList":"","q":"Jordan","region":"","sizeType":"","so":"","soldTo":"","type":""}
 
         payload = ""
         #Fill your headers in order to run this code
