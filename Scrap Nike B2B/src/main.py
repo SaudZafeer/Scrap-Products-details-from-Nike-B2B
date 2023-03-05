@@ -4,7 +4,7 @@ from style_availability_API import *
 
 def get_product_name(Styles):
         url = "https://atonce.nike.net/product/"
-
+        #Fill your own Query string
         querystring = {"childSo":"","contracts":"","currency":"","hzn":"","language":"","":"","priceList":"","region":"","sizeType":"","so":"","soldTo":"","styleColor":{Styles},"withAv":""}
 
         payload = ""
